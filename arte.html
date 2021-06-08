@@ -1,72 +1,80 @@
 <!DOCTYPE html>
 
 <html>
-		<head>
-			<meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 
-<link href="css/style.css" rel= "stylesheet"/>
+ 		<title> Retratos </title>
 
- <title> Portfolio Milagros </title>
+ 		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+		
+		<link href="css/estilos.css" rel= "stylesheet"/>
 
+		<meta name="keywords" content="fotografía, portfolio, foto-arte, arte" />
+		<meta name= "description" content="Echa un vistazo a los retratos fotográficos"/>
 
-<meta name="keywords" content="fotografía, portfolio, arte " />
-<meta name= "description" content="Echa un vistazo a las fotografías artisticas"/>
-
-		</head>
+	</head>
 
 <body>
-	<header>
 
- 	<h1> Arte </h1>
-
-
- 		<div class="menu">
- 	
- 	<nav>
- 
-		<ul> 
-		<li><a href="retratos.html"> Retratos </a></li>
-
-		<li><a href="paisajes.html"> Paisajes </a></li>
-	    <li><a href="eventos.html">
-	    Eventos</a></li>
-	    <li><a href="arte.html"> Arte </a></li>
-
-	   <li class="inicio"><a href="index.html"><h2> Inicio</h2></a></li>
-	   
-	    </ul>
-	 </nav>	
-</div>
-
+<header>
+	<!-- Presentacion-->
+	<nav class="menu">
+	<label class="title"> <h1>Fotógrafas emergentes</h1></label>
+		<ul class="menu_items">
+			<li><a href="retratos.html"> <p>Retratos</p></a></li>
+			<li><a href="paisajes.html"><p>Paisajes</p></a></li>
+			<li><a href="eventos.html"><p>Eventos</p> </a></li>
+			<li><a href="arte.html"> <p>Arte</p> </a></li> 
+			<li><a href ="index.html"> <p><strong>Inicio</strong></p></a></li>
+		</ul>	
+	</nav>
 </header>
 
-<article class="galeria">
+</br>
 
-	<div class="a"> 
-	<img src = "fotos/Arte_1.jpg" alt= "Arte" title="foto arte"/> 
+<section>
+<h3 class="ajuste_texto"> Las destacadas </h3>
+ <div class="row">
+
+		<div class="column"> 
+	<img src = "fotos/Arte_1.jpg" alt= "Retratos" title="foto retrato" class="img-fluid" /> 
+	
+	<img src = "fotos/Arte_2.jpg" alt= "Retratos" title="foto retrato" class="img-fluid"/>
+	
+	<img src = "fotos/Arte_3.jpg" alt= "Retratos" title="foto retrato" class="img-fluid"/>
+	
 	</div>
+	
 
-	<div class="a"> 
-	<img src = "fotos/Arte_2.jpg" alt= "Arte" title="foto arte" /> 
+	<div class="column">
+  	<img src = "fotos/Arte_4.jpg" alt= "Retratos" title="foto retrato" class="img-fluid" /> 
+	
+	<img src = "fotos/Arte_5.jpg" alt= "Retratos" title="foto retrato" class="img-fluid" /> 
+
+	<img src = "fotos/Arte_6.jpg" alt= "Retratos" title="foto retrato" class="img-fluid"/> 
 	</div>
+	
 
-	<div class="a"> 
-	<img src = "fotos/Arte_3.jpg" alt= "Arte" title="foto arte"/> 
+</section>
+
+<!--- FOOTER -->
+<footer>
+	<div class="footer">
+	
+	<form class="ingreso">
+		<h3> Ingresá </h3>
+			<label>
+	 		Tu usuario  <input type="text" value= "Usuario"/> 
+	 		Tu contraseña <input type="password" value ="Constraseña"/> 
+	 		<button class="button"><span> IR </span></button>
+
+     		</label>
+ 		</form>
+
 	</div>
-
-	<div class="a"> 
-	<img src = "fotos/Arte_4.jpg" alt= "Arte" title="foto arte" /> 
-	</div>
-
-	<div class="a"> 
-	<img src = "fotos/Arte_5.jpg" alt= "Arte" title="foto arte" /> 
-	</div>
-
-	<div class="a"> 
-	<img src = "fotos/Arte_6.jpg" alt= "Arte" title="foto arte" /> 
-	</div>
-
-</article>
+</footer>
 
 </body>
 </html>
