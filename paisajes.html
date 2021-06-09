@@ -1,79 +1,60 @@
 <!DOCTYPE html>
-
 <html>
-	<head>
-		<meta charset="UTF-8">
-
- 		<title> Retratos </title>
-
- 		<link rel="preconnect" href="https://fonts.gstatic.com"> 
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
-		<link href="css/estilos.css" rel= "stylesheet"/>
-
-		<meta name="keywords" content="fotografía, portfolio, paisajes" />
-		<meta name= "description" content="Echa un vistazo a los retratos fotográficos"/>
-
-	</head>
-
+<head>
+  <meta charset="UTF-8">
+  <title>Retratos</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&amp;display=swap" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+  <meta name="keywords" content="fotografía, portfolio, paisajes">
+  <meta name="description" content="Echa un vistazo a los retratos fotográficos">
+</head>
 <body>
-
-<header>
-	<!-- Presentacion-->
-	<nav class="menu">
-	<label class="title"> <h1>Fotógrafas emergentes</h1></label>
-		<ul class="menu_items">
-			<li><a href="retratos.html"> <p>Retratos</p></a></li>
-			<li><a href="paisajes.html"><p>Paisajes</p></a></li>
-			<li><a href="eventos.html"><p>Eventos</p> </a></li>
-			<li><a href="arte.html"> <p>Arte</p> </a></li> 
-			<li><a href ="index.html"> <p><strong>Inicio</strong></p></a></li>
-		</ul>	
-	</nav>
-</header>
-
-</br>
-
-<section>
-<h3 class="ajuste_texto"> Las destacadas </h3>
- <div class="row">
-
-		<div class="column"> 
-	<img src = "fotos/Paisajes_1.jpg" alt= "Retratos" title="foto retrato" class="img-fluid" /> 
-	
-	<img src = "fotos/Paisajes_2.jpg" alt= "Retratos" title="foto retrato" class="img-fluid"/>
-	
-	<img src = "fotos/Paisajes_3.jpg" alt= "Retratos" title="foto retrato" class="img-fluid"/>
-	
-	</div>
-	
-
-	<div class="column">
-  	<img src = "fotos/Paisajes_4.jpg" alt= "Retratos" title="foto retrato" class="img-fluid" /> 
-	
-	<img src = "fotos/Paisajes_5.jpg" alt= "Retratos" title="foto retrato" class="img-fluid" /> 
-
-	<img src = "fotos/Paisajes_6.jpg" alt= "Retratos" title="foto retrato" class="img-fluid"/> 
-	</div>
-	
-
-</section>
-
-<!--- FOOTER -->
-<footer>
-	<div class="footer">
-	
-	<form class="ingreso">
-		<h3> Ingresá </h3>
-			<label>
-	 		Tu usuario  <input type="text" value= "Usuario"/> 
-	 		Tu contraseña <input type="password" value ="Constraseña"/> 
-	 		<button class="button"><span> IR </span></button>
-
-     		</label>
- 		</form>
-
-	</div>
-</footer>
-
+  
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="menu">
+      <h1><label class="title">Fotógrafas emergentes</label></h1>
+      <ul class="menu_items">
+        <li>
+          <p><a href="retratos.html">
+          Retratos</a></p>
+        </li>
+        <li>
+          <p><a href="paisajes.html">
+          Paisajes</a></p>
+        </li>
+        <li>
+          <p><a href="eventos.html">
+          Eventos</a></p>
+        </li>
+        <li>
+          <p><a href="arte.html">
+          Arte</a></p>
+        </li>
+        <li>
+          <p><strong><a href="index.html">
+          Inicio</a></strong></p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--GALERÍA-->
+  <section>
+    <h3 class="ajuste_texto">Las destacadas</h3>
+    <div class="row">
+      <div class="column"><img src="fotos/paisajes_1.jpeg" alt="Paisaje calido" title="Paisaje calido" class="img-fluid"> <img src="fotos/paisajes_2.jpeg" alt="paisaje tren" title="paisaje tren" class="img-fluid"> <img src="fotos/paisajes_3.jpeg" alt="foto gaviota" title="foto gaviota" class="img-fluid"></div>
+      <div class="column"><img src="fotos/paisajes_4.jpeg" alt="paisaje muelle" title="paisaje muelle" class="img-fluid"> <img src="fotos/paisajes_5.jpeg" alt="paisaje casas y estatua" title="paisaje casas y estatua" class="img-fluid"> <img src="fotos/paisajes_6.jpeg" alt="paisaje casas" title="foto casas" class="img-fluid"></div>
+    </div>
+  </section>
+   <!--- FOOTER -->
+  <footer class="footer">
+    <div class="ingreso">
+      <form>
+        <h3 class="nombre">Ingresá</h3>
+        <label class="ingreso_items">Tu usuario <input type="text" value="Usuario"> Tu contraseña <input type="password" value="Constraseña"> <button class="button"><span>IR</span></button></label>
+      </form>
+    </div>
+  </footer>
 </body>
 </html>

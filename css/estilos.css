@@ -17,6 +17,8 @@ section {background-color:#E6E6E7;
 
 img {width: 100%;}
 
+
+
 h2, h3 {color: #9c9c9c;
 	font-family: Roboto;
 	font-weight: 300px;
@@ -30,13 +32,14 @@ p {color: #9c9c9c;
 		font-family: Roboto;
 		padding: 0 10px;}
 
-.ajuste_texto {margin-top: 40px;	}
+.ajuste_texto {text-align: center;
+					padding: 20px;	}
 
 
 /* Header */
 .menu {background-color: #e6ecff;
 		height: 75px;
-		width: 100vw;
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -69,6 +72,22 @@ p {color: #9c9c9c;
 
 													}
 
+.Nombre_seccion a {text-decoration: none;
+	font-size: 30px;
+	color: #9c9c9c;
+	text-decoration-line: none;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;}
+
+.Nombre_seccion a:hover {color: #0088A9;}}
+
+
+.section ul {padding: 2px;
+							margin: 0px;
+						}
+
+.section h2 {padding: 15px;
+							color: #9c9c9c;}
 
 
 
@@ -175,7 +194,7 @@ height:auto;}
 
 .footer {background-color: #e6ecff;
 		height: 100px;
-		width: 100vw;
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -183,7 +202,7 @@ height:auto;}
 
 .nombre {padding-left: 30px;}
 
-.ingreso_items {padding-bottom: 20px;
+.ingreso_items {padding-bottom: 10px;
 					padding-left: 60px;}
 
 .redes {color: #9c9c9c;
