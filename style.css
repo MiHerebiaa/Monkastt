@@ -1,0 +1,203 @@
+body {background: #000000;
+	font-family: Roboto,Arial;
+	margin: 0;
+	padding: 0;
+	
+	
+	}
+
+header, footer{ 
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 10%; 
+		background: #000000;
+		display: inline-flex;
+		width: 80%;
+		}
+
+li,a,button {
+	font-family: Roboto, Arial;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+
+.logo{cursor: pointer;
+		width: 50px;}
+
+.nav__links li{display: inline-block;
+padding: 0px 20px;}
+
+.nav__links li a {transition: all 0.3s ease 0s;}
+
+.nav__links li a:hover {color: #0088A9;}
+
+button {
+	padding: 9px 25px;
+	background-color:#5BB3A2 ;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {background-color: #41BAE0 ;} 
+
+//* MAIN*// 
+
+.contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	font-size: 24px;
+	padding: 25px;
+}
+.box {background: url("../fotos/bananas-4.jpg") no-repeat center;
+		padding: 5px;
+		font-size: 40px;
+		font-family: Roboto;
+		text-align: center;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr) ; }
+
+.box p {color: #FFFFFF;}
+
+
+
+
+.parallax {
+    background: url("../fotos/portada.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;   
+}
+
+@media only screen and (min-width: 600px){
+
+	.parallax {background-attachment: fixed;
+		height:500px ;
+		background: url("../fotos/portada.jpg") fixed center;}
+}
+
+.parallax_2 {
+    background: url("../fotos/galeria.gif") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+@media only screen and (min-width: 600px){
+
+	.parallax_2 {background-attachment: fixed;
+		height:500px ;
+		background: url("../fotos/galeria.gif") fixed center;}
+
+}
+
+/*CARDS*/
+
+.container {max-width: 1200px;
+			height: 430px;
+			display: inline-block;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 5px;
+			padding: 5px;
+			margin-left: 50px;
+			align-items: center;
+			}
+
+.container .card {width: 250px;
+height: 350px;
+background-color: #D0D0D0;
+border-radius: 4px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 5px;
+text-align: center;
+transition: all 0.25s; }
+
+.container .card:hover {transform: translateY(-15px);
+box-shadow: 0 12px 16px rgba(255,255,255,0.2);}
+
+.container .card img {width: 50%;
+padding-top: 10px;}
+
+.container .card p {padding: 0 1rem;
+				font-size: 16px;
+				font-weight: 300;
+				color: #000000;
+				font-family: Roboto;}
+
+.container .card h1 {text-align: center;
+					color: #000000;
+					font-family: Roboto}
+
+.container .card h2 {text-align: center;
+					color: #000000;
+					font-family: Roboto;
+					font-size: 16px;
+					margin-bottom: 5px;}
+
+.container .card button {font-weight: 500;
+					text-decoration: none;
+					color: #FFFFFF;
+					padding: 5px;
+	}
+
+
+
+
+/*CONTACTO*/
+.info {
+	padding: 5px;
+	background-color:#D0D0D0 ;
+	border: none;
+	border-radius: 2000px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.btn-wsp {
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	line-height: 55px;
+	bottom: 30px;
+	right: 30px;
+	background: #0df053;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+	z-index: 100px;}
+
+.btn-wsp:hover {text-decoration: none;
+color: #0df053;
+background: #fff;}
+
+
+
+
+.contacto {text-align: left;
+			display: inline-block;
+			font-size: 20px;
+		}
+
+
+.mapa {grid-column: span 1;
+margin: 50px;
+}
+
+.datos {
+	grid-column: span 1;
+	margin-bottom: 50px;
+margin-left: 500px ;
+font-size: 20px;
+text-align: left;}
+
+

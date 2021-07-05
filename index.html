@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Monkast</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="fontello.css">
+		<meta charset="utf-8" />
+		
+   <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+  <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #000000;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+      .swiper-slide img: hover {color: black;}
+
+    </style>
+	</head>
+<body>
+
+<!-- MENU-->
+	<header>
+		<img class="logo" src="mono.png" alt="Logo mono"/>
+		<nav>
+			<ul class="nav__links">
+				<li><a href="#">Podcast</a> </li>
+				<li><a href="#">Cómo trabajamos</a> </li>
+				<li><a href="#">Estudio</a> </li>
+			</ul>
+		</nav>
+    <a class="cta" href="#"><button></button></a>
+  </header>
+
+<!-- PRESENTACION -->
+
+<main>	
+	<div class="parallax">
+	</div>
+
+<!--PODCAST-->
+      <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="imagen" src="fotos/podcast_1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos/podcast_2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos/podcast_3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos/podcast_4.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+<!--PROCESO-->
+<div class="container">
+	<div class="card">
+		<img src="fotos/icono_1.png">
+		<h1>Te escuchamos</h1>
+		<h2>¿Qué querés comunicar? </h2>
+		<button class="info"> <p>Tu marca, un producto, un servicio, una idea </p>  </button>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card">
+		<img src="fotos/icono_2.png">
+		<h1>Te evaluamos</h1>
+		<h2>Con nuestro equipo de profesionales</h2>
+		<button class="info"> <p> El mejor contenido para comunicar tu mensaje, la voz que represente a tu público </p></button>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card">
+		<img src="fotos/icono_3.png">
+		<h1>Producimos</h1>
+		<h2>En nuestro estudio profesional</h2>
+		<button class="info"> <p>Diseñamos el logo de tu podcast</p></button>
+		
+	</div>
+</div>
+
+<div class="container">
+	<div class="card">
+		<img src="fotos/icono_4.png">
+		<h1>Distribuimos</h1>
+		<h2> Publicación del contenido</h2>
+		<button class="info"> <p>Nos encargamos de que tu podcast esté disponible en las distintas plataformas de escucha</p></button>
+	</div>
+</div>
+
+
+	<div class="parallax_2"> 
+
+	</div>
+
+<!--GALERÍA -->
+
+<!-- CONTACTO-->
+
+<div class="contenedor">
+		<section class="box"> <p> Contactános</p>
+	
+		<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.346075977831!2d-58.42198128503576!3d-34.59540936456498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7dae6e1ef1%3A0xee1d33c99b71777c!2sAvenida%20Medrano%20%26%20Gorriti%2C%20C1179%20CABA!5e0!3m2!1ses-419!2sar!4v1624021645587!5m2!1ses-419!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+
+		<p class="datos">Instagram: @Monkast <br/>
+			Facebook: /Monkast <br/>
+			Mail: monkastproductora@gmail.com <br/>
+			Teléfono: 1132159357
+
+		</p>
+
+	</section>
+</div>
+
+
+
+<!--FOOTER-->
+<footer>
+		<img class="logo" src="mono.png" alt="Logo mono"/>
+		<nav>
+			<ul class="nav__links">
+				<li><a href="#">Instagram</a> </li>
+				<li><a href="#">Facebook</a> </li>
+				<li><a href="#">Whatsapp</a> </li>
+			</ul>
+		</nav>
+		<a class="cta" href="#"><button></button></a>
+	</footer>
+
+	<a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD"class="btn-wsp" target="_blank">
+	<i class="icon-whatsapp"></i>
+
+</main>
+
+</body>
+</html>
